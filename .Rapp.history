@@ -1,0 +1,2642 @@
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+matrixv <- matrix(matrix,1,112*112)#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=11),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,6000),col="blue")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=101),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,600),col="purple")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=2001),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim = c(0,60),col="magenta")
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+matrixv <- matrix(matrix,1,112*112)#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=11),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,6000),col="magenta")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=101),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,600),col="purple")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=2001),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim = c(0,60),col="blue")
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+matrixv <- matrix(matrix,1,112*112)#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=11),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,6000),col="cyan")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=101),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,600),col="purple")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=2001),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim = c(0,60),col="blue")
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+matrixv <- matrix(matrix,1,112*112)#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=11),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,6000),col="turquoise")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=101),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,600),col="purple")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=2001),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim = c(0,60),col="blue")
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+matrixv <- matrix(matrix,1,112*112)#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=11),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,6000),col="turquoise")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=101),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,600),col="blue")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=2001),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim = c(0,60),col="blue")
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+matrixv <- matrix(matrix,1,112*112)#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=11),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,6000),col="turquoise")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=101),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,600),col="light blue")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=2001),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim = c(0,60),col="blue")
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+matrixv <- matrix(matrix,1,112*112)#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=11),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,6000),col="chartruse")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=101),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,600),col="purple")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=2001),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim = c(0,60),col="blue")
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+matrixv <- matrix(matrix,1,112*112)#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=11),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,6000),col="blue")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=101),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,600),col="purple")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=2001),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim = c(0,60))
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+matrixv <- matrix(matrix,1,112*112)#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=11),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,6000),col="light blue")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=101),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,600),col="purple")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=2001),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim = c(0,60))
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+matrixv <- matrix(matrix,1,112*112)#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=11),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,6000),col="light blue")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=101),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,600),col="purple")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=2001),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim = c(0,60))
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+matrixv <- matrix(matrix,1,112*112)#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=5),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,6000),col="light blue")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=101),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,600),col="purple")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=2001),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim = c(0,60))
+11
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+matrixv <- matrix(matrix,1,112*112)#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=11),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,6000),col="light blue")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=101),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,600),col="purple")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=2001),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim = c(0,60))
+source("q1.R")
+quartz.options(width=10, height=6)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+matrixv <- matrix(matrix,1,112*112)#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=11),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,6000),col="light blue")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=101),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,600),col="purple")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=2001),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim = c(0,60))
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+matrixv <- matrix(matrix,1,112*112)#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=11),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,6000),col="light blue")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=101),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,600),col="purple")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=2001),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim = c(0,60))
+matrixv <- matrix(matrix,1,112*112)
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+matrixv <- matrix(matrix,1,112*112)#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=11),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,6000),col="light blue")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=101),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,600),col="purple")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=2001),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim = c(0,60))
+#layout(matrix(c(1,2,3),1,3))
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+matrixv <- matrix(matrix,1,112*112)#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=11),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,6000),col="light blue")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=101),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,600),col="purple")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=2001),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim = c(0,60))
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+matrixv <- matrix(matrix,1,112*112)#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=11),xlab="Communication Strength",xlim=c(0,1),ylim=c(0,6000),col="light blue")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=101),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim=c(0,600),col="purple")#
+#
+hist(matrixv,breaks=seq(min(matrixv),max(matrixv),length.out=2001),xlab="Communication Strength",main=NULL,xlim=c(0,1),ylim = c(0,60))
+quartz.options(width=10, height=3.75)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+plot(matrix[,1],matrix[,2],xlab = "Region 1 Strength",ylab = "Region 2 Strength",xlim=c(0,.8),ylim=c(0,1))#
+#
+plot(matrix[,1],matrix[,11],xlab = "Region 1 Strength",ylab = "Region 12 Strength",xlim=c(0,.8),ylim=c(0,1))#
+#
+plot(matrix[,1],matrix[,100],xlab = "Region 1 Strength",ylab = "Region 100 Strength",xlim=c(0,.8),ylim=c(0,.5))
+quartz.options(width=10, height=3.75)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+plot(matrix[,1],matrix[,2],xlab = "Region 1 Strength",ylab = "Region 2 Strength",xlim=c(0,.8),ylim=c(0,1))#
+#
+plot(matrix[,1],matrix[,11],xlab = "Region 1 Strength",ylab = "Region 12 Strength",xlim=c(0,.8),ylim=c(0,1))#
+#
+plot(matrix[,1],matrix[,100],xlab = "Region 1 Strength",ylab = "Region 100 Strength",xlim=c(0,.8),ylim=c(0,.5))
+quartz.options(width=6, height=6)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+boxplot(matrix[,40],matrix[,41],matrix[,60],xlab="Region Labels",ylab="Communication Strength",names=c("40","41","60"))
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(colMeans(matrix),seq(min(colMeans(matrix)),max(colMeans(matrix)),length.out=11),xlab="Mean Strength",main=NULL,xlim=c(.2,.4),ylim=c(0,20))#
+#
+hist(apply(matrix,2,var),seq(min(apply(matrix,2,var)),max(apply(matrix,2,var)),length.out=11),xlab="Variance of Strength",main=NULL,xlim=c(0,.03),ylim=c(0,40))#
+#
+hist(colMeans(matrix)/apply(matrix,2,var),seq(min(colMeans(matrix)/apply(matrix,2,var)),max(colMeans(matrix)/apply(matrix,2,var)),length.out=11),xlab="Coefficient of Variation of Strength",main=NULL,xlim=c(0,100),ylim=c(0,20))
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+hist(colMeans(matrix),seq(min(colMeans(matrix)),max(colMeans(matrix)),length.out=11),xlab="Mean Strength",main=NULL,xlim=c(.2,.4),ylim=c(0,20))#
+#
+hist(apply(matrix,2,var),seq(min(apply(matrix,2,var)),max(apply(matrix,2,var)),length.out=11),xlab="Variance of Strength",main=NULL,xlim=c(0,.03),ylim=c(0,40))#
+#
+hist(colMeans(matrix)/apply(matrix,2,var),seq(min(colMeans(matrix)/apply(matrix,2,var)),max(colMeans(matrix)/apply(matrix,2,var)),length.out=11),xlab="Coefficient of Variation of Strength",main=NULL,xlim=c(0,100),ylim=c(0,20))
+help(seq)
+quartz.options(width=9.5, height=5)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+par(mfrow=c(1,2))#
+#
+hist(matrix[,1],seq(min(matrix[,1]),max(matrix[,1]),length.out=11),xlab="Strength",main="Column 1",xlim=c(0,.8),ylim=c(0,40))#
+hist(matrix[,100],seq(min(matrix[,100]),max(matrix[,100]),length.out=11),xlab="Strength",main="Column 100",xlim=c(0,.5),ylim=c(0,40))#
+#
+mean(matrix[,1])#
+median(matrix[,1])#
+mean(matrix[,100])#
+median(matrix[,100])
+quartz.options(width=9.5, height=5)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+par(mfrow=c(1,2))#
+#
+hist(matrix[,1],seq(min(matrix[,1]),max(matrix[,1]),length.out=11),xlab="Strength",main="Column 1",xlim=c(0,.8),ylim=c(0,40))#
+hist(matrix[,100],seq(min(matrix[,100]),max(matrix[,100]),length.out=11),xlab="Strength",main="Column 100",xlim=c(0,.5),ylim=c(0,40))#
+#
+mean(matrix[,1]);#
+median(matrix[,1]);#
+mean(matrix[,100]);#
+median(matrix[,100]);
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#both do same thing#
+#layout(matrix(c(1,2,3),1,3))#
+par(mfrow=c(1,3))#
+#
+matrixv <- matrix(matrix,1,112*112)#
+#
+hist(matrixv,seq(min(matrixv),max(matrixv),length.out=101),xlab="Strength",main=NULL,xlim=c(0,1),ylim=c(0,600))#
+#
+matrixvrand = matrixv[sample(112*112)[1:100]]#
+hist(matrixvrand,seq(min(matrixvrand),max(matrixvrand),length.out=11),xlab="Strength",main=NULL,xlim=c(0,1),ylim=c(0,40))#
+#
+matrixvrand = matrixv[sample(112*112)[1:100]]#
+hist(matrixvrand,seq(min(matrixvrand),max(matrixvrand),length.out=11),xlab="Strength",main=NULL,xlim=c(0,1),ylim=c(0,40))
+help(sample)
+quartz.options(width=10.5, height=5.5)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+par(mfrow=c(1,4))#
+#
+#requires Hmisc library#
+library("Hmisc")#
+#
+nregs <- 112#
+plot(rep(1,112),matrix[,1],xlim = c(0,2),ylim=c(0,.8),xlab="Data",ylab="Strength")#
+#
+errbar(1,mean(matrix[,1]),mean(matrix[,1]) + sd(matrix[,1]) / sqrt(nregs),mean(matrix[,1]) - sd(matrix[,1]) / sqrt(nregs),xlim = c(.95,1.05),ylim = c(0,.6),xlab="p/m standard error",ylab="")#
+errbar(1,mean(matrix[,1]),mean(matrix[,1]) + 2*sd(matrix[,1]) / sqrt(nregs),mean(matrix[,1]) - 2*sd(matrix[,1]) / sqrt(nregs),xlim = c(.95,1.05),ylim = c(0,.6),xlab="p/m 2 standard errors",ylab="")#
+errbar(1,mean(matrix[,1]),mean(matrix[,1]) + sd(matrix[,1]),mean(matrix[,1]) - sd(matrix[,1]),xlim = c(.95,1.05),ylim = c(0,.6),xlab="pm 1 standard deviation",ylab="" )
+quartz.options(width=10, height=3)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+matrixv <- matrix(matrix,1,112*112)#
+xr <- sample(112*112)#
+nsamples <- 100#
+#
+prob <- length(which(matrixv[xr[1:nsamples]]>0.9))/nsamples#
+prob#
+prob2 <- length(which(matrixv[xr[1:nsamples]]<0.1))/nsamples#
+prob2
+quartz.options(width=5, height=5)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+matrix[2,3]#
+#
+matrixv <- matrix(matrix,1,112*112)#
+matrixv <- matrixv[which(matrixv!=matrix[2,3])]#
+hist(matrixv,seq(min(matrixv),max(matrixv),length.out=101),xlab="Strength of all Regions Pairs Except (M2,M3)",main=NULL,xlim=c(0,1),ylim=c(0,600))#
+#
+pval <- length(which(matrixv>matrix[2,3])) / length(matrixv)#
+pval
+quartz.options(width=5, height=5)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))
+groups
+quartz.options(width=5, height=5)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+group1 <- which(groups==1)#
+group2 <- which(groups==1)#
+group3 <- which(groups==1)
+group1
+group2
+group2
+quartz.options(width=5, height=5)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+group1 <- which(groups==1)#
+group2 <- which(groups==2)#
+group3 <- which(groups==3)#
+#
+group2
+quartz.options(width=5, height=5)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+group1 <- which(groups==1)#
+group2 <- which(groups==2)#
+group3 <- which(groups==3)#
+#
+group3
+quartz.options(width=5, height=5)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+group1 <- which(groups==1)#
+group2 <- which(groups==2)#
+group3 <- which(groups==3)#
+#
+length(group1)
+quartz.options(width=5, height=5)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+group1 <- which(groups==1)#
+group2 <- which(groups==2)#
+group3 <- which(groups==3)#
+#
+group1
+matrix[group1,group1]
+matrix(matrix[group1,group1],length(group1)*length(group1),1)
+matrix(matrix[group2,group2],length(group2)*length(group2),1)
+matrix(matrix[group1,group1],length(group1)*length(group1),1), matrix(matrix[group2,group2],length(group2)*length(group2),1)
+matrix(matrix[group1,group1],length(group1)*length(group1),1)
+matrix(matrix[group2,group2],length(group2)*length(group2),1)
+matrix(matrix[group1,group1],length(group1)*length(group1),1)
+matrix(matrix[group2,group2],length(group2)*length(group2),1)]
+matrix(matrix[group2,group2],length(group2)*length(group2),1))
+matrix(matrix[group2,group2],length(group2)*length(group2),1))
+c(matrix(matrix[group1,group1],length(group1)*length(group1),1),matrix(matrix[group2,group2],length(group2)*length(group2),1))
+matrix(c(matrix(matrix[group1,group1],length(group1)*length(group1),1),matrix(matrix[group2,group2],length(group2)*length(group2),1))244,1)
+matrix(c(matrix(matrix[group1,group1],length(group1)*length(group1),1),matrix(matrix[group2,group2],length(group2)*length(group2),1)),244,1)
+quartz.options(width=5, height=5)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+group1 <- which(groups==1)#
+group2 <- which(groups==2)#
+group3 <- which(groups==3)#
+#
+set <- matrix( c(matrix(matrix[group1,group1],length(group1)*length(group1),1),matrix(matrix[group2,group2],length(group2)*length(group2),1)) ,244,1)#
+set
+quartz.options(width=5, height=5)#
+#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+group1 <- which(groups==1)#
+group2 <- which(groups==2)#
+group3 <- which(groups==3)#
+#
+set <- matrix( c(matrix(matrix[group1,group1],length(group1)*length(group1),1),matrix(matrix[group2,group2],length(group2)*length(group2),1)) ,244,1)#
+set
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)
+matrixset
+help(ones)
+help('ones')
+help('??ones')
+??ones
+help(rep)
+matrixset[matrixset > .5] <- 1
+matrixset
+matrixset[matrixset < .5] <- 0
+matrixset
+matrixset
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+matrixset
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))
+pvstrong
+w = which(matrixset > 0, arr.ind=TRUE)
+w <- which(matrixset > 0, arr.ind=TRUE)
+w
+strongix <- w[,1]
+strongix <- w[,1]; strongix;
+strongib <- w[,2]strongib
+strongib <- w[,2];strongib
+strongib <- w[,2]
+rp <- sample(length(strongix))
+rp
+length(strongix)
+length(strongib)
+strongix[rp]
+strongix[rp[1:25]]
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+strongix[rp[1:25]]
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+strongix[rp[1:25]]
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+strongix[rp[1:25]]
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+strongix[rp[1:25]]
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+strongix[rp[1:25]]
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+strongix[rp[1:25]]
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+strongix[rp[1:25]]
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+strongix[rp[1:25]]
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+strongix[rp[1:25]]
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+strongix[rp[1:25]]
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+strongix[rp[1:25]]
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+strongix[rp[1:25]]
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+strongix[rp[1:25]]
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+strongix[rp[1:25]]
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+strongix[rp[1:25]]
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+strongix[rp[1:25]]
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+strongix[rp[1:25]]
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+strongix[rp[1:25]]
+t(strongix[rp[1:25]])
+t(t(strongix[rp[1:25]]))
+c(strongix[rp[1:25]],strongib[rp[1:25]])
+matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]))
+matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),nrow=2)
+matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]#
+strongib[rp[1:25]#
+#
+matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+#
+matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+#
+matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)
+25 * pvstrong
+y <- length(which(first25[,2]))<length(group1)+1)
+y <- length(which(first25[,2]))<length(group1)+1
+y <- length(which(first25[,2]))<length(group1)+1
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)
+y <- length(which(first25[,2]))<length(group1)+1)
+y <- length(which(first25[,2])<length(group1)+1)
+y <- length(which(first25[,2])<length(group1)+1)
+y <- length( which(first25[,2]<(length(group1)+1)))
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+prob
+y
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+prob#
+for (i in y:25)
+prob[i-(y-1)] <- 0
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- 0
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- 0#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- 0#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- 0#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- 0#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- 0#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- 0#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- 0#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- 0#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- 0#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- 0#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- 0#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- 0#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- choose(25,i)*((pvstrong)^(i))*((1-pvstrong)^(25-i))#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- choose(25,i)*((pvstrong)^(i))*((1-pvstrong)^(25-i))#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- choose(25,i)*((pvstrong)^(i))*((1-pvstrong)^(25-i))#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+prob#
+for (i in y:25) #
+	prob[i-(y-1)] <- choose(25,i)*((pvstrong)^(i))*((1-pvstrong)^(25-i))#
+prob
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+prob#
+for (i in y:25) #
+	prob[i-(y-1)] <- choose(25,i)*((pvstrong)^(i))*((1-pvstrong)^(25-i))#
+prob
+pval <- 2*sum(prob)
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- choose(25,i)*((pvstrong)^(i))*((1-pvstrong)^(25-i))#
+pval <- 2*sum(prob)#
+pval
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- choose(25,i)*((pvstrong)^(i))*((1-pvstrong)^(25-i))#
+pval <- 2*sum(prob)
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- choose(25,i)*((pvstrong)^(i))*((1-pvstrong)^(25-i))#
+pval <- 2*sum(prob)
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+#
+strongix[rp[1:25]]#
+strongib[rp[1:25]]#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- choose(25,i)*((pvstrong)^(i))*((1-pvstrong)^(25-i))#
+pval <- 2*sum(prob)
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- choose(25,i)*((pvstrong)^(i))*((1-pvstrong)^(25-i))#
+pval <- 2*sum(prob)
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+for (i in y:25) #
+	prob[i-(y-1)] <- choose(25,i)*((pvstrong)^(i))*((1-pvstrong)^(25-i))#
+pval <- 2*sum(prob)
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+groups <- as.matrix(read.csv(file="Groups.csv",header=FALSE))#
+group1 <- which(groups==1)#
+#
+matrixset <- matrix[group1,]#
+nregs <- 112#
+set <- matrix(matrixset,length(group1)*nregs,1)#
+matrixset[matrixset > .5] <- 1#
+matrixset[matrixset < .5] <- 0#
+#
+pvstrong <- (length(group1)*length(group1)) / (length(group1)*(length(group2)+length(group3)))#
+#
+w <- which(matrixset > 0, arr.ind=TRUE)#
+strongix <- w[,1]#
+strongib <- w[,2]#
+rp <- sample(length(strongix))#
+first25 <- matrix(c(strongix[rp[1:25]],strongib[rp[1:25]]),ncol=2)#
+#
+25 * pvstrong#
+#
+y <- length( which(first25[,2]<(length(group1)+1)))#
+y#
+prob <- choose(25,y)*((pvstrong)^(y))*((1-pvstrong)^(25-y))#
+prob#
+for (i in y:25) #
+	prob[i-(y-1)] <- choose(25,i)*((pvstrong)^(i))*((1-pvstrong)^(25-i))#
+pval <- 2*sum(prob)#
+pval
+matrixbin <- zeros(dim(matrix))
+matrixbin <- rep(0,(dim(matrix))0
+matrixbin <- rep(0,(dim(matrix)))
+help(rep)
+matrixbin <- matrix[matrix > .5] <- 1
+matrixbin
+matrixbin
+matrix
+matrix[matrix < .5] <- 0
+matrix
+freq <- sum(matrix)
+freq
+freq <- colsums(matrix)
+freq <- colsum(matrix)
+freq <- colSums(matrix)
+freq
+barplot(table(freq))
+table(freq)
+help(table)
+barplot(freq)
+barplot(freq, colr="red")
+barplot(freq, col="red")
+help(color)
+help(col)
+barplot(freq, col="blueviolet")
+quartz.options(width=5, height=5)#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+nregs <- 112#
+matrix[matrix > .5] <- 1#
+matrix[matrix < .5] <- 0#
+#
+freq <- colSums(matrix)#
+barplot(freq, col="blueviolet",xlab = "Brain Region",ylab="")
+quartz.options(width=5, height=5)#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+nregs <- 112#
+matrix[matrix > .5] <- 1#
+matrix[matrix < .5] <- 0#
+#
+freq <- colSums(matrix)#
+barplot(freq, col="blueviolet",xlab = "Brain Region",ylab="Frequency of Strong Elements")
+quartz.options(width=5, height=5)#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+nregs <- 112#
+matrix[matrix > .5] <- 1#
+matrix[matrix < .5] <- 0#
+#
+freq <- colSums(matrix)#
+barplot(freq, col="blueviolet",xlab = "Brain Region",ylab="Frequency of Strong Elements")
+quartz.options(width=5, height=5)#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+nregs <- 112#
+matrix[matrix > .5] <- 1#
+matrix[matrix < .5] <- 0#
+#
+freq <- colSums(matrix)#
+barplot(freq, col="blueviolet",xlab = "Brain Region",ylab="Frequency of Strong Elements",xlim=c(0,25))
+quartz.options(width=5, height=5)#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+nregs <- 112#
+matrix[matrix > .5] <- 1#
+matrix[matrix < .5] <- 0#
+#
+freq <- colSums(matrix)#
+barplot(freq, col="blueviolet",xlab = "Brain Region",ylab="Frequency of Strong Elements",xlim=c(0,120),ylim=c(0,25))
+quartz.options(width=5, height=5)#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+nregs <- 112#
+matrix[matrix > .5] <- 1#
+matrix[matrix < .5] <- 0#
+#
+freq <- colSums(matrix)#
+barplot(freq, col="blueviolet",xlab = "Brain Region",ylab="Frequency of Strong Elements",xlim=c(0,120),ylim=c(0,25))
+quartz.options(width=5, height=5)#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+nregs <- 112#
+matrix[matrix > .5] <- 1#
+matrix[matrix < .5] <- 0#
+#
+freq <- colSums(matrix)#
+barplot(freq, col="blueviolet",xlab = "Brain Region",ylab="Frequency of Strong Elements",xlim=c(0,170),ylim=c(0,25))
+quartz.options(width=5, height=5)#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+nregs <- 112#
+matrix[matrix > .5] <- 1#
+matrix[matrix < .5] <- 0#
+#
+freq <- colSums(matrix)#
+barplot(freq, col="blueviolet",xlab = "Brain Region",ylab="Frequency of Strong Elements",ylim=c(0,25))
+quartz.options(width=5, height=5)#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+nregs <- 112#
+matrix[matrix > .5] <- 1#
+matrix[matrix < .5] <- 0#
+#
+freq <- colSums(matrix)#
+barplot(freq, col="blueviolet",xlab = "Brain Region",ylab="Frequency of Strong Elements",ylim=c(0,25)names.arg=c("hi"))
+quartz.options(width=5, height=5)#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+nregs <- 112#
+matrix[matrix > .5] <- 1#
+matrix[matrix < .5] <- 0#
+#
+freq <- colSums(matrix)#
+barplot(freq, col="blueviolet",xlab = "Brain Region",ylab="Frequency of Strong Elements",ylim=c(0,25),names.arg=c("hi"))
+quartz.options(width=5, height=5)#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+nregs <- 112#
+matrix[matrix > .5] <- 1#
+matrix[matrix < .5] <- 0#
+#
+freq <- colSums(matrix)#
+barplot(freq, col="blueviolet",xlab = "Brain Region",ylab="Frequency of Strong Elements",ylim=c(0,25),names.arg=c(1:112))
+quartz.options(width=5, height=5)#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+nregs <- 112#
+matrix[matrix > .5] <- 1#
+matrix[matrix < .5] <- 0#
+#
+freq <- colSums(matrix)#
+barplot(freq, col="blueviolet",xlab = "Brain Region",ylab="Frequency of Strong Elements",ylim=c(0,25),names.arg=c(1:112))#
+#
+expected = sum(freq)/nregs
+expected
+x2 <- sum((freq-expected*t(rep(1,length(freq))))^2 / expected*rep(1,length(freq)))
+x2
+quartz.options(width=5, height=5)#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+nregs <- 112#
+matrix[matrix > .5] <- 1#
+matrix[matrix < .5] <- 0#
+#
+freq <- colSums(matrix)#
+barplot(freq, col="blueviolet",xlab = "Brain Region",ylab="Frequency of Strong Elements",ylim=c(0,25),names.arg=c(1:112))#
+#
+expected <- sum(freq)/nregs#
+x2 <- sum((freq-expected*t(rep(1,length(freq))))^2 / expected*rep(1,length(freq)))#
+x2
+quartz.options(width=5, height=5)#
+matrix <- as.matrix(read.csv(file="Matrix.csv",header=FALSE))#
+#
+nregs <- 112#
+matrix[matrix > .5] <- 1#
+matrix[matrix < .5] <- 0#
+#
+freq <- colSums(matrix)#
+barplot(freq, col="blueviolet",xlab = "Brain Region",ylab="Frequency of Strong Elements",ylim=c(0,25),names.arg=c(1:112))#
+#
+expected <- sum(freq)/nregs#
+x2 <- sum((freq-expected*t(rep(1,length(freq))))^2 / expected*rep(1,length(freq)))#
+x2
